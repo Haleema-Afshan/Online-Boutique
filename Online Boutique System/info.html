@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Users Info</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <div>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+            <a class="navbar-brand" href="#"><img class="logo" src="images/logoo.png" alt="logo"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
+                aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarText">
+                <ul class="navbar-nav mr-auto">
+                </ul>
+                <span class="navbar-text">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="index1.html">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="index1.html">
+                        <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#"
+                                id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true"
+                                aria-expanded="false">
+                                Shop
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <a class="dropdown-item" href="men.html">Men's Collection</a>
+                                <a class="dropdown-item" href="women.html">Women's Collection</a>
+                            </div>
+                        </li>
+                        </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="index1.html"><i class="fa fa-shopping-cart"
+                                    aria-hidden="true"></i></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="info.html"><i class="fa fa-user-circle-o"
+                                    aria-hidden="true"></i></a>
+                        </li>
+                    </ul>
+                </span>
+            </div>
+        </nav>
+        <div>
+            <div>
+                <h3 class="halo">CUSTOMER AND PRODUCT DETAILS</h3>
+            </div>
+            <div>
+                <form action=" ">
+                    <table width="990px" class="infoo" align="center">
+                        <tr>
+                            <td><label for="firstname">FIRST NAME</label></td>
+                            <td><input id="firstname" type="text" name="firstname" size="17" maxlength="20"
+                                    placeholder="Enter first name"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="lastname">LAST NAME</label></td>
+                            <td><input id="lastname" type="text" name="lastname" size="17" maxlength="20"
+                                    placeholder="Enter last name"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="number">MOBILE NUMBER</label></td>
+                            <td><input id="number" type="text" name="mobile number" size="17" maxlength="10"
+                                    placeholder="Enter mobile number">(10 digit number)</td>
+                        </tr>
+                        <tr>
+                            <td>Gender</td>
+                            <td colspan="2">Male<input type="radio" name="Gender" value="male">
+                                Female<input type="radio" name="Gender" value="female">
+                                Other<input type="radio" name="Gender" value="other"></td>
+                        </tr>
+                        <tr>
+                            <td>Country</td>
+                            <td><select name="country">
+                                    <option value="1">Pakistan</option>
+                                    <option value="2">India</option>
+                                    <option value="3">Australia</option>
+                                    <option value="4">Canada</option>
+                                    <option value="5">Georgia</option>
+                                    <option value="6">Nepal</option>
+                                    <option value="7">Switzerland</option>
+                                    <option value="8">Brazil</option>
+                                    <option value="9">China</option>
+                                    <option value="10">Danmark</option>
+                                    <option value="11">France</option>
+                                    <option value="12">Germany</option>
+                                    <option value="13">Sri Lanka</option>
+                                    <option value="14">Thailand</option>
+                                    <option value="15">Zimbabwe</option>
+                                </select></td>
+                        </tr>
+                        <tr>
+                            <td><label for="cityname">CITY</label></td>
+                            <td><input id="cityname" type="text" name="city" size="17" maxlength="30"
+                                    placeholder="Enter city name"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="address">ADDRESS<br><br><br></label></td>
+                            <td><textarea name="address" cols="40" rows="4"></textarea></td>
+                        </tr>
+                        <tr>
+                            <td><label for="productname">Product Name</label></td>
+                            <td><input id="productname" type="text" name="productname" size="17" maxlength="50"
+                                    placeholder="Enter product name"></td>
+                        </tr>
+                        <tr>
+                            <td>Product Pic</td>
+                            <td><input class="pic" type="file" name="productpic"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="item">No. Of Items</label></td>
+                            <td><input id="item" type="text" name="item" size="17" maxlength="2"
+                                    placeholder="Enter No. Of Items"></td>
+                        </tr>
+                        <tr>
+                            <td>Size For Dresses</td>
+                            <td colspan="2">
+                                Small<input type="checkbox" value="Small" name="dresssize">&nbsp;&nbsp;
+                                Medium<input type="checkbox" value="Medium" name="dresssize"><br>
+                                Large<input type="checkbox" value="Large" name="dresssize">&nbsp;&nbsp;
+                                X-Large<input type="checkbox" value="X-Large" name="dresssize">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Size For Rings</td>
+                            <td colspan="2">
+                                16<input type="checkbox" value="16" name="ringsize">&nbsp;&nbsp;
+                                17<input type="checkbox" value="17" name="ringsize"><br>
+                                18<input type="checkbox" value="18" name="ringsize">&nbsp;&nbsp;
+                                19<input type="checkbox" value="19" name="ringsize">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Size For Sandels</td>
+                            <td colspan="2">
+                                07<input type="checkbox" value="7" name="shoesize">&nbsp;&nbsp;
+                                08<input type="checkbox" value="8" name="shoesize">&nbsp;&nbsp;
+                                09<input type="checkbox" value="9" name="shoesize"><br>
+                                10<input type="checkbox" value="10" name="shoesize">&nbsp;&nbsp;
+                                11<input type="checkbox" value="11" name="shoesize">&nbsp;&nbsp;
+                                12<input type="checkbox" value="12" name="shoesize">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Comment</td>
+                            <td><textarea name="comment" cols="40" rows="4"
+                                    placeholder="Write your comments or optional details here..."></textarea></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td><button class="bot" type="submit"><a class="last" href="thanks.html">Submit</a></button>
+                                <button class="bot" type="reset"><a class="last" href="info.html">Reset</a></button>
+                            </td>
+                        </tr>
+                    </table>
+                </form>
+            </div>
+        </div>
+        <div class="footer">
+            <h4>Copyright<i class="fa fa-copyright" aria-hidden="true"></i>ShopatHome
+            </h4>
+        </div>
+    </div>
+    <a href="info.html"><i class="fa fa-chevron-up" aria-hidden="true"></i></a>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
